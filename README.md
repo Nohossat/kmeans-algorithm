@@ -19,6 +19,10 @@ To get the centroids:
 centroids = model.cluster_centers_
 ```
 
+You can also plot the different stages of the algorithm for the first iteration of Kmeans. If needed, set the plot attribute to True during initialization.
+
+
+
 
 
 
