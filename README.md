@@ -4,6 +4,17 @@ A custom implementation of Kmeans algorithm in Python (written inside a Jupyter 
 
 The object Custom_KMeans is based on the scikit-learn implementation.
 
+## Installation
+
+```python
+git clone https://github.com/Nohossat/kmeans-algorithm.git
+cd kmeans-algorithm
+python -m venv venv/ 
+source /venv/bin/activate # OSX - bash/zsh
+.\venv\Scripts\activate # Windows - Powershell
+pip install -r requirements.txt
+```
+
 ## Usage
 
 In a new cell, create an instance of the Custom_KMeans object then fit and predict cluster labels of a normalized dataset X.
